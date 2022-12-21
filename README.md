@@ -17,7 +17,25 @@ Host machine has atleast 8 cores
 
 Host machine has atleast 8G memory
 
-# From loadbalancer machine (loadbalancer.example.net)
+# From loadbalancer machine (loadbalancer.example.net) as root
 ```
 apt update && apt install -y haproxy
 ```
+Configure haproxy
+Append the below lines to /etc/haproxy/haproxy.cfg
+```
+frontend kubernetes-frontend
+    bind 192.168.32.144:6443
+    mode tcp
+    option tcplog
+    default_backend kubernetes-backend
+
+backend kubernetes-backend
+    mode tcp
+    option tcp-check
+    balance roundrobin
+    server kmaster1 192.168.32.145:6443 check fall 3 rise 2
+    server kmaster2 192.168.32.146:6443 check fall 3 rise 2
+```
+
+``
