@@ -11,7 +11,7 @@ HAProxy is a free, very fast and reliable reverse-proxy offering high availabili
 
 3 - Ubuntu machines,  distro: ubuntu  22.04
 
-Virtualbox
+Virtualbox / VMware Workstation Pro
 
 Host machine has atleast 8 cores
 
