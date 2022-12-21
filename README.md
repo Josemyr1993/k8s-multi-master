@@ -10,8 +10,11 @@ HAProxy is a free, very fast and reliable reverse-proxy offering high availabili
 # Requisites
 
 3 - Ubuntu machines,  distro: ubuntu  22.04
+
 Virtualbox
+
 Host machine has atleast 8 cores
+
 Host machine has atleast 8G memory
 
 # From loadbalancer machine (loadbalancer.example.net)
