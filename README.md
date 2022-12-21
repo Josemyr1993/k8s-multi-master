@@ -110,7 +110,7 @@ IMPORTANT: You also need to pass --apiserver-advertise-address to the join comma
 
 EXEMPLE:  
 ```
-ubeadm join 192.168.32.144:6443 --token nmhi16.2k8s946cngngpel6     --discovery-token-ca-cert-hash sha256:c180ae6ab9ae309dcd8667851c56481a155dd0e4d3d1d0d750b5f399497d25cf     --control-plane --certificate-key 887512530c6ec111e5173a1eec9015f24303d505807e4face496ce29f40f1a34 --apiserver-advertise-address 192.168.32.146
+kubeadm join 192.168.32.144:6443 --token nmhi16.2k8s946cngngpel6     --discovery-token-ca-cert-hash sha256:c180ae6ab9ae309dcd8667851c56481a155dd0e4d3d1d0d750b5f399497d25cf     --control-plane --certificate-key 887512530c6ec111e5173a1eec9015f24303d505807e4face496ce29f40f1a34 --apiserver-advertise-address 192.168.32.146
 ```
 
 
