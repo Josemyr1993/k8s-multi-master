@@ -122,3 +122,4 @@ kubeadm join 192.168.32.144:6443 --token nmhi16.2k8s946cngngpel6     --discovery
 
 Repo baseado: https://github.com/justmeandopensource/kubernetes/blob/master/kubeadm-ha-multi-master/README.md
 
+youtube: https://www.youtube.com/watch?v=c1SCdv2hYDc
