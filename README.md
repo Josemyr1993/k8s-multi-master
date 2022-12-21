@@ -15,5 +15,6 @@ Host machine has atleast 8 cores
 Host machine has atleast 8G memory
 
 # From loadbalancer machine (loadbalancer.example.net)
-´´´
+```
 apt update && apt install -y haproxy
+```
